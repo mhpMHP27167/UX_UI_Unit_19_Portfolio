@@ -39,6 +39,7 @@ h4 {
     font-size: 18px;
     margin: 0;
     text-align: center;
+    margin-left: 35px;
 }
 a {
     text-decoration: none;
@@ -89,7 +90,6 @@ p {
     font-weight: normal;
     font-size: 16px;
     line-height: 25px;
-    margin: 35px;
     margin: 10rem;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -124,4 +124,24 @@ button {
     margin: 25px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    padding: none;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.projectimages{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.blocktext {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    margin-right: 0;
+    height: max-content;
 }
