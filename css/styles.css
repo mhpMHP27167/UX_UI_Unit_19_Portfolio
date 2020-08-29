@@ -96,6 +96,11 @@ button {
     border: none;
     align-items: center;
     margin-left: 35px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
 }
 .buttons {
     margin: 15%;
