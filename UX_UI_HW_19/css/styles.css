@@ -1,0 +1,105 @@
+body {
+    background-color: #ffffff;
+    background-image: url("../images/Background_circle_purple.jpg");
+    background-position: center top;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    margin: 20pt;
+}
+h1 {
+    font-family: 'Lato', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-family: 'Lato', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0px;
+}
+h3 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+}
+a {
+    text-decoration: none;
+    float: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 30% 10% 60%;
+    margin: 35px;
+}
+.wrapper {
+    width:70%;
+    height: 30%;
+    padding:25% 0;
+    line-height: 0;
+    border-radius:50%;
+    text-align: center;
+    background: #6E42FF; 
+    opacity: 80%;
+}
+.wrapper:hover {
+    background: radial-gradient( ellipse at center, #6E42FF 30%, #6E42FF 60%, white 70%);
+}
+h3:hover {
+    color: #ffffff;
+}
+.container {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    float: right;
+    align-items: flex-start;
+    align-content: center;  
+}
+body {
+    background-color: #ffffff;
+    background-image: url("../images/Background_circle_transparent.png");
+    background-position: center top;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+}
+p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 15%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.pageheading {
+    text-align: center;
+}
+button {
+    margin-left: 15%;
+    background-color: white;
+    border-radius: 48%;
+    padding: 10px 10px;
+    height: max-content;
+    width: max-content;
+    border: none;
+    opacity: 90%;
+    align-items: center;
+    margin-left: 35px;
+}
+.buttons {
+    margin: 15%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
