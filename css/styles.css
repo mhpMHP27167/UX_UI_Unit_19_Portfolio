@@ -37,7 +37,7 @@ h4 {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    margin: 15%;
+    margin: 0;
     text-align: center;
 }
 a {
@@ -90,12 +90,10 @@ p {
     font-size: 16px;
     line-height: 25px;
     margin: 35px;
+    margin: 10rem;
     margin-top: 25px;
     margin-bottom: 25px;
     display: block;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 .pageheading {
     text-align: center;
@@ -113,13 +111,14 @@ button {
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
+    margin: 10px;
 }
 .buttons {
     margin-top: 25px;
     margin-bottom: 25px;
 }
 .resume {
-    margin-left: 8rem;
+    margin-left: 10rem;
 }
 .projects {
     margin: 25px;
