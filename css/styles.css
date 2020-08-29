@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     background-size: cover;
-    margin: 20pt;
+    margin: 35px;
 }
 h1 {
     font-family: 'Lato', 'sans-serif';
@@ -30,6 +30,15 @@ h3 {
     color: #ffffff;
     text-align: center;
     text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+h4 {
+    font-family: 'Lato', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 15%;
+    text-align: center;
 }
 a {
     text-decoration: none;
@@ -49,6 +58,7 @@ a {
     text-align: center;
     background: #6E42FF; 
     opacity: 80%;
+    text-decoration: none;
 }
 .wrapper:hover {
     background: radial-gradient( ellipse at center, #6E42FF 30%, #6E42FF 60%, white 70%);
@@ -79,15 +89,18 @@ p {
     font-weight: normal;
     font-size: 16px;
     line-height: 25px;
-    margin: 15%;
+    margin: 35px;
     margin-top: 25px;
     margin-bottom: 25px;
+    display: block;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .pageheading {
     text-align: center;
 }
 button {
-    margin-left: 15%;
     background-color: white;
     border-radius: 48%;
     padding: 10px 10px;
@@ -95,7 +108,6 @@ button {
     width: max-content;
     border: none;
     align-items: center;
-    margin-left: 35px;
     font-family: Lato;
     font-style: normal;
     font-weight: 400;
@@ -103,7 +115,14 @@ button {
     line-height: 25px;
 }
 .buttons {
-    margin: 15%;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+.resume {
+    margin-left: 8rem;
+}
+.projects {
+    margin: 25px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
