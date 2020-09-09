@@ -43,6 +43,7 @@ h4 {
 a {
     text-decoration: none;
     float: center;
+    color: black;
 }
 .grid {
     display: grid;
